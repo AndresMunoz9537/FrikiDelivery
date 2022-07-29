@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+
+    <item android:id="@+id/perfil"
+        android:title="Perfil"
+       />
+
+    <item android:id="@+id/metodos"
+        android:title="Metodos"/>
+
+    <item android:id="@+id/direcciones"
+        android:title="Direcciones"/>
+
+    <item android:id="@+id/historial"
+        android:title="Historial de pedidos"/>
+
+    <item android:id="@+id/cupones"
+        android:icon="@mipmap/cuponesmini"
+        android:title="Cupones"
+         />
+
+    <item android:id="@+id/notificaciones"
+        android:title="Notificaciones"/>
+
+    <item android:id="@+id/politicas"
+        android:title="Politicas y condiciones"/>
+</group>
+
+</menu>

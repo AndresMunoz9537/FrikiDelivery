@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700175829246",
+    "project_id": "frikidelivery",
+    "storage_bucket": "frikidelivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700175829246:android:b2ca3ab311bc39c3c9bdaf",
+        "android_client_info": {
+          "package_name": "com.optic.frikiDelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700175829246-c4r7uq9nkokkuujdp9u865ktkq36kcnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.optic.frikiDelivery",
+            "certificate_hash": "e20f789f955177bc63c94ded19234574e86396eb"
+          }
+        },
+        {
+          "client_id": "700175829246-891l7onut4pdll88q96dusd3fr6ihq10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxpGLzdvWJrz583RfkB9iGwmSFuo9V0as"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700175829246-891l7onut4pdll88q96dusd3fr6ihq10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    android:elevation="15dp"
+    android:outlineSpotShadowColor="@color/purple"
+    android:shadowColor="#261743">
+    <corners android:radius="30dip"/>
+    <solid android:color="@color/white" />
+
+
+</shape>

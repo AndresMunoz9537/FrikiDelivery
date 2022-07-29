@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.optic.FrikiDelivery.activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:backgroundTint="@color/fondo">
+
+
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageview_go_to_login"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="80dp"
+                android:src="@mipmap/back_arrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_horizontal"
+                android:text="Crear cuenta"
+                android:textColor="@color/purple"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/inputs"
+            android:elevation="15dp"
+            android:outlineSpotShadowColor="@color/purple">
+
+            <EditText
+                android:id="@+id/edittext_name"
+                android:textColorHint="@color/purple_light"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rectangle_133"
+                android:hint="Nombre"
+                android:inputType="text"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+
+
+            <EditText
+                android:id="@+id/edittext_email"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/purple_light"
+                android:background="@drawable/rectangle_133"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+
+
+            <EditText
+                android:id="@+id/edittext_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/purple_light"
+                android:background="@drawable/rectangle_133"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/edittext_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:textColorHint="@color/purple_light"
+                android:background="@drawable/rectangle_133"
+                android:hint="Confirmar password"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:textAlignment="center"
+                android:textSize="12dp"
+                android:textColor="@color/purple"
+                android:text="Al crear una cuenta usted acepta nuestro terminos de servicio y politicas de privacidad"
+                />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/purple"
+            android:text="REGISTRARSE"
+            android:textColor="#F4F4F4" />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
